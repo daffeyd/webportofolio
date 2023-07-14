@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import About from './components/About'
 import Profile from './components/Profile'
+import Exp from './components/Exp'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -20,7 +21,9 @@ function App() {
         </div>
         <div data-aos="fade-up" data-aos-duration="800" data-aos-delay="400">
           <Profile />
-          
+          <div className="ml-40">
+          <Exp />
+          </div>
         </div>
       </div>
     </div>
