@@ -2,6 +2,8 @@ import React, { useEffect } from 'react'
 import About from './components/About'
 import Profile from './components/Profile'
 import Exp from './components/Exp'
+import ContactMe from './components/contact'
+import Footer from './components/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -24,6 +26,8 @@ function App() {
           <div className="ml-40">
           <Exp />
           </div>
+          <ContactMe />
+          <Footer />
         </div>
       </div>
     </div>
